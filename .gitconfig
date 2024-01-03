@@ -1,0 +1,18 @@
+[user]
+	email = airmulk@gmail.com
+	name = airmulk
+[init]
+	defaultBranch = main
+[alias]
+	co = checkout
+	cm = commit
+	st = status
+	d = diff
+	dsg = diff --staged
+	rsg = restore --staged
+	br = branch
+	cp = cherry-pick
+	logol = log --oneline
+	logp = log --pretty=format:'%C(yellow)%h %C(magenta)%ad %C(white)%s  %C(magenta)[%an] %C(reset)%d' --date=format-local:%m-%dT%H:%M
+[core]
+	quotepath = off
